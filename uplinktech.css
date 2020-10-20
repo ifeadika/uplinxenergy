@@ -1,3 +1,6 @@
+header{
+  width: 100%;
+}
 .dropdown {
   position: relative;
   display: inline-block;  
@@ -116,9 +119,15 @@ color: black;
 .box{
   background-size: 100%;
   border: 1px solid black;
-  margin: 5px;
+  margin-left: 3%;
+  margin-right: 0;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 500px;
+  width: 20%!important;
+  height: 100%!important;
+}
+.featrow{
+  margin-left: 50px;
 }
 .box a{
   color:black;
@@ -126,30 +135,43 @@ color: black;
 }
 .sales{
   margin-top: 10px;
-  align-self: center;
-  margin-left: 150px !important;
+  align-self: cent;
+  width: 100%;
 }
-.col-md-2{
-  width: 300px ;
-  height: 300px;
+/*.col-md-2{
+  width: 50cm;
+  height: 100%;
+  margin-right:px;
+}*/
+h3{
+  font-size: 500px;
+}
+.img{
+  width: 100%;
+}
+.add-to-cartt{
+  border-spacing: 3px;
+  background-color: #D84877 ;
+  border: 1px solid black;
+  padding-right: 7px;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 .add-to-cart{
   background-color: #D84877;
-  border-radius: 10px;
+  border: 1px solid black;
   padding: 5px ;
   margin-bottom: 5px;
-  margin-left: -10px;
-  position: fixe;
+  margin-left: -10p;
   font-weight: 600;
-  border: none;
 }
 .feat{
 text-align: center;
 }
 #myCarousel{
 height: 400px;
-width: 1200px;
-margin-left: -30px;
+width: 90%;
+margin-left: 50px;
 }
 /*footer*/
 footer {
