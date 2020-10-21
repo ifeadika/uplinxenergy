@@ -1,128 +1,183 @@
 .dropdown {
-    position: relative;
-    display: inline-block;
-    
-  }
+  position: relative;
+  display: inline-block;  
+} 
 .dropbtn img{
-    width: 20px;
+  width: 20px;
 }  
 .header-right{
-    float: right;
+  float: right;
 }
 ul {
-    list-style-type: none;
-    margin-right: 20px;
-    padding: 0;
-    /*overflow: hidden;*/
-    /*background-color: #333333;*/
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;margin-top: 10px;
-  }
-  
-  li a:hover {
-    background-color:rgb(72, 216, 72);
-    text-decoration: none;
-  }
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0;
+  /*overflow: hidden;*/
+  /*background-color: #333333;*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;margin-top: 10px;
+}
+
+li a:hover {
+  background-color:rgb(72, 216, 72);
+  text-decoration: none;
+}
 li img{
-    width: 20px;
+ width: 20px;
 }
 .search{
-    margin-top: 30px;
-    margin-right: 50px;
-    float: right;
-    border: hidden;
+  margin-top: 30px;
+  margin-right: 50px;
+  float: right;
+  border: hidden;
 }
 .item-button{
-    margin-top: 30px;
-    margin-right: 20px;
-    float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  float: right;
 }
 .cat{
-    font-size: 30px;
-    font-weight: bold;
-    height: 50px;
-    text-align: center;
-    background-color:rgb(72, 216, 72);
-    padding-top: 10px;
-    border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  background-color:rgb(72, 216, 72);
+  padding-top: 10px;
+  border-radius: 5px;
 }
 ol{
-    list-style-type: none;
+  list-style-type: none;
 }
 .nav-list ol{
-    list-style-type: none;
-    margin: 10px;
-    padding-left: 100px;
-    overflow: hidden;
-    background-color: rgb(72, 216, 72);
-    border-radius: 10px;
+  list-style-type: none;
+  margin: 10px;
+  padding-left: 100px;
+  overflow: hidden;
+  background-color: rgb(72, 216, 72);
+  border-radius: 10px;
 }
 .nav-list li a{
-    display: list-item;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    margin-top: 0px;
-    text-align: center;
-    margin-left: 50px;
-    
+  display: list-item;
+  color: #4877D8;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 50px;
+
 }    
 .nav-list li a:hover{
-    background-color: rgb(141, 230, 141);
+  background-color: rgb(141, 230, 141);
 }
 .dropbtn {
-   
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
- 
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: rgb(72, 216, 72);}
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.h {
+color: black;
+}
+/* user drop down*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(72, 216, 72);}
 .box{
-    background-image: url(./img/Uplinx\ Energy.jpg);
-    background-size: 100%;
-    border: 1px solid black;
-    margin: 5px;
+  background-size: 100%;
+  border: 1px solid black;
+  margin: 5px;
+  max-width: 400px;
+  max-height: 400px;
+}
+.box a{
+  color:black;
+  line-height: 20px;
 }
 .sales{
-    margin-top: 10px;
-    align-self: center;
-    margin-left: 150px !important;
+  margin-top: 10px;
+  align-self: center;
+  margin-left: 150px !important;
+}
+.col-md-2{
+  width: 300px ;
+  height: 300px;
 }
 .add-to-cart{
-    color: blue;
+  background-color: #D84877;
+  border-radius: 10px;
+  padding: 5px ;
+  margin-bottom: 5px;
+  margin-left: -10px;
+  position: fixe;
+  font-weight: 600;
+  border: none;
 }
+.feat{
+text-align: center;
+}
+#myCarousel{
+height: 400px;
+width: 1200px;
+margin-left: -30px;
+}
+/*footer*/
+footer {
+margin-top: 30px;
+padding-top: 30px;
+background-color: #303030;
+border-top: 1px solid #ddd;
+color: #e2e2e2;
+max-height: 300px;
+}
+footer hr {
+border-top: none;
+border-bottom: 1px solid #666;
+}
+footer a {
+color: #ccc;
+}
+footer a:hover {
+color: #fff;
+background-color: #4877D8;
+}
+footer h5 {
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-weight: bold;
+color: #fff;
+}
+.list-unstyled{
+margin: -10px;
+padding: -10px;
+} 
